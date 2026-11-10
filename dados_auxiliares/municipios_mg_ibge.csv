@@ -1,0 +1,854 @@
+codigo_ibge,municipio,mesorregiao
+3100104,Abadia dos Dourados,Triângulo Mineiro/Alto Paranaíba
+3100203,Abaeté,Central Mineira
+3100302,Abre Campo,Zona da Mata
+3100401,Acaiaca,Zona da Mata
+3100500,Açucena,Vale do Rio Doce
+3100609,Água Boa,Vale do Rio Doce
+3100708,Água Comprida,Triângulo Mineiro/Alto Paranaíba
+3100807,Aguanil,Oeste de Minas
+3100906,Águas Formosas,Vale do Mucuri
+3101003,Águas Vermelhas,Norte de Minas
+3101102,Aimorés,Vale do Rio Doce
+3101201,Aiuruoca,Sul/Sudoeste de Minas
+3101300,Alagoa,Sul/Sudoeste de Minas
+3101409,Albertina,Sul/Sudoeste de Minas
+3101508,Além Paraíba,Zona da Mata
+3101607,Alfenas,Sul/Sudoeste de Minas
+3101631,Alfredo Vasconcelos,Campo das Vertentes
+3101706,Almenara,Jequitinhonha
+3101805,Alpercata,Vale do Rio Doce
+3101904,Alpinópolis,Sul/Sudoeste de Minas
+3102001,Alterosa,Sul/Sudoeste de Minas
+3102050,Alto Caparaó,Zona da Mata
+3102100,Alto Rio Doce,Zona da Mata
+3102209,Alvarenga,Vale do Rio Doce
+3102308,Alvinópolis,Metropolitana de Belo Horizonte
+3102407,Alvorada de Minas,Metropolitana de Belo Horizonte
+3102506,Amparo do Serra,Zona da Mata
+3102605,Andradas,Sul/Sudoeste de Minas
+3102704,Cachoeira de Pajeú,Jequitinhonha
+3102803,Andrelândia,Sul/Sudoeste de Minas
+3102852,Angelândia,Jequitinhonha
+3102902,Antônio Carlos,Campo das Vertentes
+3103009,Antônio Dias,Vale do Rio Doce
+3103108,Antônio Prado de Minas,Zona da Mata
+3103207,Araçaí,Metropolitana de Belo Horizonte
+3103306,Aracitaba,Zona da Mata
+3103405,Araçuaí,Jequitinhonha
+3103504,Araguari,Triângulo Mineiro/Alto Paranaíba
+3103603,Arantina,Sul/Sudoeste de Minas
+3103702,Araponga,Zona da Mata
+3103751,Araporã,Triângulo Mineiro/Alto Paranaíba
+3103801,Arapuá,Triângulo Mineiro/Alto Paranaíba
+3103900,Araújos,Central Mineira
+3104007,Araxá,Triângulo Mineiro/Alto Paranaíba
+3104106,Arceburgo,Sul/Sudoeste de Minas
+3104205,Arcos,Oeste de Minas
+3104304,Areado,Sul/Sudoeste de Minas
+3104403,Argirita,Zona da Mata
+3104452,Aricanduva,Jequitinhonha
+3104502,Arinos,Noroeste de Minas
+3104601,Astolfo Dutra,Zona da Mata
+3104700,Ataléia,Vale do Mucuri
+3104809,Augusto de Lima,Central Mineira
+3104908,Baependi,Sul/Sudoeste de Minas
+3105004,Baldim,Metropolitana de Belo Horizonte
+3105103,Bambuí,Oeste de Minas
+3105202,Bandeira,Jequitinhonha
+3105301,Bandeira do Sul,Sul/Sudoeste de Minas
+3105400,Barão de Cocais,Metropolitana de Belo Horizonte
+3105509,Barão do Monte Alto,Zona da Mata
+3105608,Barbacena,Campo das Vertentes
+3105707,Barra Longa,Zona da Mata
+3105905,Barroso,Campo das Vertentes
+3106002,Bela Vista de Minas,Metropolitana de Belo Horizonte
+3106101,Belmiro Braga,Zona da Mata
+3106200,Belo Horizonte,Metropolitana de Belo Horizonte
+3106309,Belo Oriente,Vale do Rio Doce
+3106408,Belo Vale,Metropolitana de Belo Horizonte
+3106507,Berilo,Jequitinhonha
+3106606,Bertópolis,Vale do Mucuri
+3106655,Berizal,Norte de Minas
+3106705,Betim,Metropolitana de Belo Horizonte
+3106804,Bias Fortes,Zona da Mata
+3106903,Bicas,Zona da Mata
+3107000,Biquinhas,Central Mineira
+3107109,Boa Esperança,Sul/Sudoeste de Minas
+3107208,Bocaina de Minas,Sul/Sudoeste de Minas
+3107307,Bocaiúva,Norte de Minas
+3107406,Bom Despacho,Central Mineira
+3107505,Bom Jardim de Minas,Sul/Sudoeste de Minas
+3107604,Bom Jesus da Penha,Sul/Sudoeste de Minas
+3107703,Bom Jesus do Amparo,Metropolitana de Belo Horizonte
+3107802,Bom Jesus do Galho,Vale do Rio Doce
+3107901,Bom Repouso,Sul/Sudoeste de Minas
+3108008,Bom Sucesso,Oeste de Minas
+3108107,Bonfim,Metropolitana de Belo Horizonte
+3108206,Bonfinópolis de Minas,Noroeste de Minas
+3108255,Bonito de Minas,Norte de Minas
+3108305,Borda da Mata,Sul/Sudoeste de Minas
+3108404,Botelhos,Sul/Sudoeste de Minas
+3108503,Botumirim,Norte de Minas
+3108552,Brasilândia de Minas,Noroeste de Minas
+3108602,Brasília de Minas,Norte de Minas
+3108701,Brás Pires,Zona da Mata
+3108800,Braúnas,Vale do Rio Doce
+3108909,Brazópolis,Sul/Sudoeste de Minas
+3109006,Brumadinho,Metropolitana de Belo Horizonte
+3109105,Bueno Brandão,Sul/Sudoeste de Minas
+3109204,Buenópolis,Central Mineira
+3109253,Bugre,Vale do Rio Doce
+3109303,Buritis,Noroeste de Minas
+3109402,Buritizeiro,Norte de Minas
+3109451,Cabeceira Grande,Noroeste de Minas
+3109501,Cabo Verde,Sul/Sudoeste de Minas
+3109600,Cachoeira da Prata,Metropolitana de Belo Horizonte
+3109709,Cachoeira de Minas,Sul/Sudoeste de Minas
+3109808,Cachoeira Dourada,Triângulo Mineiro/Alto Paranaíba
+3109907,Caetanópolis,Metropolitana de Belo Horizonte
+3110004,Caeté,Metropolitana de Belo Horizonte
+3110103,Caiana,Zona da Mata
+3110202,Cajuri,Zona da Mata
+3110301,Caldas,Sul/Sudoeste de Minas
+3110400,Camacho,Oeste de Minas
+3110509,Camanducaia,Sul/Sudoeste de Minas
+3110608,Cambuí,Sul/Sudoeste de Minas
+3110707,Cambuquira,Sul/Sudoeste de Minas
+3110806,Campanário,Vale do Rio Doce
+3110905,Campanha,Sul/Sudoeste de Minas
+3111002,Campestre,Sul/Sudoeste de Minas
+3111101,Campina Verde,Triângulo Mineiro/Alto Paranaíba
+3111150,Campo Azul,Norte de Minas
+3111200,Campo Belo,Oeste de Minas
+3111309,Campo do Meio,Sul/Sudoeste de Minas
+3111408,Campo Florido,Triângulo Mineiro/Alto Paranaíba
+3111507,Campos Altos,Triângulo Mineiro/Alto Paranaíba
+3111606,Campos Gerais,Sul/Sudoeste de Minas
+3111705,Canaã,Zona da Mata
+3111804,Canápolis,Triângulo Mineiro/Alto Paranaíba
+3111903,Cana Verde,Oeste de Minas
+3112000,Candeias,Oeste de Minas
+3112059,Cantagalo,Vale do Rio Doce
+3112109,Caparaó,Zona da Mata
+3112208,Capela Nova,Campo das Vertentes
+3112307,Capelinha,Jequitinhonha
+3112406,Capetinga,Sul/Sudoeste de Minas
+3112505,Capim Branco,Metropolitana de Belo Horizonte
+3112604,Capinópolis,Triângulo Mineiro/Alto Paranaíba
+3112653,Capitão Andrade,Vale do Rio Doce
+3112703,Capitão Enéas,Norte de Minas
+3112802,Capitólio,Sul/Sudoeste de Minas
+3112901,Caputira,Zona da Mata
+3113008,Caraí,Jequitinhonha
+3113107,Caranaíba,Campo das Vertentes
+3113206,Carandaí,Campo das Vertentes
+3113305,Carangola,Zona da Mata
+3113404,Caratinga,Vale do Rio Doce
+3113503,Carbonita,Jequitinhonha
+3113602,Careaçu,Sul/Sudoeste de Minas
+3113701,Carlos Chagas,Vale do Mucuri
+3113800,Carmésia,Vale do Rio Doce
+3113909,Carmo da Cachoeira,Sul/Sudoeste de Minas
+3114006,Carmo da Mata,Oeste de Minas
+3114105,Carmo de Minas,Sul/Sudoeste de Minas
+3114204,Carmo do Cajuru,Oeste de Minas
+3114303,Carmo do Paranaíba,Triângulo Mineiro/Alto Paranaíba
+3114402,Carmo do Rio Claro,Sul/Sudoeste de Minas
+3114501,Carmópolis de Minas,Oeste de Minas
+3114550,Carneirinho,Triângulo Mineiro/Alto Paranaíba
+3114600,Carrancas,Campo das Vertentes
+3114709,Carvalhópolis,Sul/Sudoeste de Minas
+3114808,Carvalhos,Sul/Sudoeste de Minas
+3114907,Casa Grande,Metropolitana de Belo Horizonte
+3115003,Cascalho Rico,Triângulo Mineiro/Alto Paranaíba
+3115102,Cássia,Sul/Sudoeste de Minas
+3115201,Conceição da Barra de Minas,Campo das Vertentes
+3115300,Cataguases,Zona da Mata
+3115359,Catas Altas,Metropolitana de Belo Horizonte
+3115409,Catas Altas da Noruega,Metropolitana de Belo Horizonte
+3115458,Catuji,Vale do Mucuri
+3115474,Catuti,Norte de Minas
+3115508,Caxambu,Sul/Sudoeste de Minas
+3115607,Cedro do Abaeté,Central Mineira
+3115706,Central de Minas,Vale do Rio Doce
+3115805,Centralina,Triângulo Mineiro/Alto Paranaíba
+3115904,Chácara,Zona da Mata
+3116001,Chalé,Zona da Mata
+3116100,Chapada do Norte,Jequitinhonha
+3116159,Chapada Gaúcha,Norte de Minas
+3116209,Chiador,Zona da Mata
+3116308,Cipotânea,Zona da Mata
+3116407,Claraval,Sul/Sudoeste de Minas
+3116506,Claro dos Poções,Norte de Minas
+3116605,Cláudio,Oeste de Minas
+3116704,Coimbra,Zona da Mata
+3116803,Coluna,Vale do Rio Doce
+3116902,Comendador Gomes,Triângulo Mineiro/Alto Paranaíba
+3117009,Comercinho,Jequitinhonha
+3117108,Conceição da Aparecida,Sul/Sudoeste de Minas
+3117207,Conceição das Pedras,Sul/Sudoeste de Minas
+3117306,Conceição das Alagoas,Triângulo Mineiro/Alto Paranaíba
+3117405,Conceição de Ipanema,Vale do Rio Doce
+3117504,Conceição do Mato Dentro,Metropolitana de Belo Horizonte
+3117603,Conceição do Pará,Oeste de Minas
+3117702,Conceição do Rio Verde,Sul/Sudoeste de Minas
+3117801,Conceição dos Ouros,Sul/Sudoeste de Minas
+3117836,Cônego Marinho,Norte de Minas
+3117876,Confins,Metropolitana de Belo Horizonte
+3117900,Congonhal,Sul/Sudoeste de Minas
+3118007,Congonhas,Metropolitana de Belo Horizonte
+3118106,Congonhas do Norte,Metropolitana de Belo Horizonte
+3118205,Conquista,Triângulo Mineiro/Alto Paranaíba
+3118304,Conselheiro Lafaiete,Metropolitana de Belo Horizonte
+3118403,Conselheiro Pena,Vale do Rio Doce
+3118502,Consolação,Sul/Sudoeste de Minas
+3118601,Contagem,Metropolitana de Belo Horizonte
+3118700,Coqueiral,Sul/Sudoeste de Minas
+3118809,Coração de Jesus,Norte de Minas
+3118908,Cordisburgo,Metropolitana de Belo Horizonte
+3119005,Cordislândia,Sul/Sudoeste de Minas
+3119104,Corinto,Central Mineira
+3119203,Coroaci,Vale do Rio Doce
+3119302,Coromandel,Triângulo Mineiro/Alto Paranaíba
+3119401,Coronel Fabriciano,Vale do Rio Doce
+3119500,Coronel Murta,Jequitinhonha
+3119609,Coronel Pacheco,Zona da Mata
+3119708,Coronel Xavier Chaves,Campo das Vertentes
+3119807,Córrego Danta,Oeste de Minas
+3119906,Córrego do Bom Jesus,Sul/Sudoeste de Minas
+3119955,Córrego Fundo,Oeste de Minas
+3120003,Córrego Novo,Vale do Rio Doce
+3120102,Couto de Magalhães de Minas,Jequitinhonha
+3120151,Crisólita,Vale do Mucuri
+3120201,Cristais,Oeste de Minas
+3120300,Cristália,Norte de Minas
+3120409,Cristiano Otoni,Metropolitana de Belo Horizonte
+3120508,Cristina,Sul/Sudoeste de Minas
+3120607,Crucilândia,Metropolitana de Belo Horizonte
+3120706,Cruzeiro da Fortaleza,Triângulo Mineiro/Alto Paranaíba
+3120805,Cruzília,Sul/Sudoeste de Minas
+3120839,Cuparaque,Vale do Rio Doce
+3120870,Curral de Dentro,Norte de Minas
+3120904,Curvelo,Central Mineira
+3121001,Datas,Jequitinhonha
+3121100,Delfim Moreira,Sul/Sudoeste de Minas
+3121209,Delfinópolis,Sul/Sudoeste de Minas
+3121258,Delta,Triângulo Mineiro/Alto Paranaíba
+3121308,Descoberto,Zona da Mata
+3121407,Desterro de Entre Rios,Metropolitana de Belo Horizonte
+3121506,Desterro do Melo,Campo das Vertentes
+3121605,Diamantina,Jequitinhonha
+3121704,Diogo de Vasconcelos,Metropolitana de Belo Horizonte
+3121803,Dionísio,Metropolitana de Belo Horizonte
+3121902,Divinésia,Zona da Mata
+3122009,Divino,Zona da Mata
+3122108,Divino das Laranjeiras,Vale do Rio Doce
+3122207,Divinolândia de Minas,Vale do Rio Doce
+3122306,Divinópolis,Oeste de Minas
+3122355,Divisa Alegre,Norte de Minas
+3122405,Divisa Nova,Sul/Sudoeste de Minas
+3122454,Divisópolis,Jequitinhonha
+3122470,Dom Bosco,Noroeste de Minas
+3122504,Dom Cavati,Vale do Rio Doce
+3122603,Dom Joaquim,Metropolitana de Belo Horizonte
+3122702,Dom Silvério,Zona da Mata
+3122801,Dom Viçoso,Sul/Sudoeste de Minas
+3122900,Dona Euzébia,Zona da Mata
+3123007,Dores de Campos,Campo das Vertentes
+3123106,Dores de Guanhães,Vale do Rio Doce
+3123205,Dores do Indaiá,Central Mineira
+3123304,Dores do Turvo,Zona da Mata
+3123403,Doresópolis,Oeste de Minas
+3123502,Douradoquara,Triângulo Mineiro/Alto Paranaíba
+3123528,Durandé,Zona da Mata
+3123601,Elói Mendes,Sul/Sudoeste de Minas
+3123700,Engenheiro Caldas,Vale do Rio Doce
+3123809,Engenheiro Navarro,Norte de Minas
+3123858,Entre Folhas,Vale do Rio Doce
+3123908,Entre Rios de Minas,Metropolitana de Belo Horizonte
+3124005,Ervália,Zona da Mata
+3124104,Esmeraldas,Metropolitana de Belo Horizonte
+3124203,Espera Feliz,Zona da Mata
+3124302,Espinosa,Norte de Minas
+3124401,Espírito Santo do Dourado,Sul/Sudoeste de Minas
+3124500,Estiva,Sul/Sudoeste de Minas
+3124609,Estrela Dalva,Zona da Mata
+3124708,Estrela do Indaiá,Central Mineira
+3124807,Estrela do Sul,Triângulo Mineiro/Alto Paranaíba
+3124906,Eugenópolis,Zona da Mata
+3125002,Ewbank da Câmara,Zona da Mata
+3125101,Extrema,Sul/Sudoeste de Minas
+3125200,Fama,Sul/Sudoeste de Minas
+3125309,Faria Lemos,Zona da Mata
+3125408,Felício dos Santos,Jequitinhonha
+3125507,São Gonçalo do Rio Preto,Jequitinhonha
+3125606,Felisburgo,Jequitinhonha
+3125705,Felixlândia,Central Mineira
+3125804,Fernandes Tourinho,Vale do Rio Doce
+3125903,Ferros,Metropolitana de Belo Horizonte
+3125952,Fervedouro,Zona da Mata
+3126000,Florestal,Metropolitana de Belo Horizonte
+3126109,Formiga,Oeste de Minas
+3126208,Formoso,Noroeste de Minas
+3126307,Fortaleza de Minas,Sul/Sudoeste de Minas
+3126406,Fortuna de Minas,Metropolitana de Belo Horizonte
+3126505,Francisco Badaró,Jequitinhonha
+3126604,Francisco Dumont,Norte de Minas
+3126703,Francisco Sá,Norte de Minas
+3126752,Franciscópolis,Vale do Mucuri
+3126802,Frei Gaspar,Vale do Mucuri
+3126901,Frei Inocêncio,Vale do Rio Doce
+3126950,Frei Lagonegro,Vale do Rio Doce
+3127008,Fronteira,Triângulo Mineiro/Alto Paranaíba
+3127057,Fronteira dos Vales,Vale do Mucuri
+3127073,Fruta de Leite,Norte de Minas
+3127107,Frutal,Triângulo Mineiro/Alto Paranaíba
+3127206,Funilândia,Metropolitana de Belo Horizonte
+3127305,Galiléia,Vale do Rio Doce
+3127339,Gameleiras,Norte de Minas
+3127354,Glaucilândia,Norte de Minas
+3127370,Goiabeira,Vale do Rio Doce
+3127388,Goianá,Zona da Mata
+3127404,Gonçalves,Sul/Sudoeste de Minas
+3127503,Gonzaga,Vale do Rio Doce
+3127602,Gouveia,Jequitinhonha
+3127701,Governador Valadares,Vale do Rio Doce
+3127800,Grão Mogol,Norte de Minas
+3127909,Grupiara,Triângulo Mineiro/Alto Paranaíba
+3128006,Guanhães,Vale do Rio Doce
+3128105,Guapé,Sul/Sudoeste de Minas
+3128204,Guaraciaba,Zona da Mata
+3128253,Guaraciama,Norte de Minas
+3128303,Guaranésia,Sul/Sudoeste de Minas
+3128402,Guarani,Zona da Mata
+3128501,Guarará,Zona da Mata
+3128600,Guarda-Mor,Noroeste de Minas
+3128709,Guaxupé,Sul/Sudoeste de Minas
+3128808,Guidoval,Zona da Mata
+3128907,Guimarânia,Triângulo Mineiro/Alto Paranaíba
+3129004,Guiricema,Zona da Mata
+3129103,Gurinhatã,Triângulo Mineiro/Alto Paranaíba
+3129202,Heliodora,Sul/Sudoeste de Minas
+3129301,Iapu,Vale do Rio Doce
+3129400,Ibertioga,Campo das Vertentes
+3129509,Ibiá,Triângulo Mineiro/Alto Paranaíba
+3129608,Ibiaí,Norte de Minas
+3129657,Ibiracatu,Norte de Minas
+3129707,Ibiraci,Sul/Sudoeste de Minas
+3129806,Ibirité,Metropolitana de Belo Horizonte
+3129905,Ibitiúra de Minas,Sul/Sudoeste de Minas
+3130002,Ibituruna,Oeste de Minas
+3130051,Icaraí de Minas,Norte de Minas
+3130101,Igarapé,Metropolitana de Belo Horizonte
+3130200,Igaratinga,Oeste de Minas
+3130309,Iguatama,Oeste de Minas
+3130408,Ijaci,Campo das Vertentes
+3130507,Ilicínea,Sul/Sudoeste de Minas
+3130556,Imbé de Minas,Vale do Rio Doce
+3130606,Inconfidentes,Sul/Sudoeste de Minas
+3130655,Indaiabira,Norte de Minas
+3130705,Indianópolis,Triângulo Mineiro/Alto Paranaíba
+3130804,Ingaí,Campo das Vertentes
+3130903,Inhapim,Vale do Rio Doce
+3131000,Inhaúma,Metropolitana de Belo Horizonte
+3131109,Inimutaba,Central Mineira
+3131158,Ipaba,Vale do Rio Doce
+3131208,Ipanema,Vale do Rio Doce
+3131307,Ipatinga,Vale do Rio Doce
+3131406,Ipiaçu,Triângulo Mineiro/Alto Paranaíba
+3131505,Ipuiúna,Sul/Sudoeste de Minas
+3131604,Iraí de Minas,Triângulo Mineiro/Alto Paranaíba
+3131703,Itabira,Metropolitana de Belo Horizonte
+3131802,Itabirinha,Vale do Rio Doce
+3131901,Itabirito,Metropolitana de Belo Horizonte
+3132008,Itacambira,Norte de Minas
+3132107,Itacarambi,Norte de Minas
+3132206,Itaguara,Metropolitana de Belo Horizonte
+3132305,Itaipé,Vale do Mucuri
+3132404,Itajubá,Sul/Sudoeste de Minas
+3132503,Itamarandiba,Jequitinhonha
+3132602,Itamarati de Minas,Zona da Mata
+3132701,Itambacuri,Vale do Rio Doce
+3132800,Itambé do Mato Dentro,Metropolitana de Belo Horizonte
+3132909,Itamogi,Sul/Sudoeste de Minas
+3133006,Itamonte,Sul/Sudoeste de Minas
+3133105,Itanhandu,Sul/Sudoeste de Minas
+3133204,Itanhomi,Vale do Rio Doce
+3133303,Itaobim,Jequitinhonha
+3133402,Itapagipe,Triângulo Mineiro/Alto Paranaíba
+3133501,Itapecerica,Oeste de Minas
+3133600,Itapeva,Sul/Sudoeste de Minas
+3133709,Itatiaiuçu,Metropolitana de Belo Horizonte
+3133758,Itaú de Minas,Sul/Sudoeste de Minas
+3133808,Itaúna,Oeste de Minas
+3133907,Itaverava,Metropolitana de Belo Horizonte
+3134004,Itinga,Jequitinhonha
+3134103,Itueta,Vale do Rio Doce
+3134202,Ituiutaba,Triângulo Mineiro/Alto Paranaíba
+3134301,Itumirim,Campo das Vertentes
+3134400,Iturama,Triângulo Mineiro/Alto Paranaíba
+3134509,Itutinga,Campo das Vertentes
+3134608,Jaboticatubas,Metropolitana de Belo Horizonte
+3134707,Jacinto,Jequitinhonha
+3134806,Jacuí,Sul/Sudoeste de Minas
+3134905,Jacutinga,Sul/Sudoeste de Minas
+3135001,Jaguaraçu,Vale do Rio Doce
+3135050,Jaíba,Norte de Minas
+3135076,Jampruca,Vale do Rio Doce
+3135100,Janaúba,Norte de Minas
+3135209,Januária,Norte de Minas
+3135308,Japaraíba,Central Mineira
+3135357,Japonvar,Norte de Minas
+3135407,Jeceaba,Metropolitana de Belo Horizonte
+3135456,Jenipapo de Minas,Jequitinhonha
+3135506,Jequeri,Zona da Mata
+3135605,Jequitaí,Norte de Minas
+3135704,Jequitibá,Metropolitana de Belo Horizonte
+3135803,Jequitinhonha,Jequitinhonha
+3135902,Jesuânia,Sul/Sudoeste de Minas
+3136009,Joaíma,Jequitinhonha
+3136108,Joanésia,Vale do Rio Doce
+3136207,João Monlevade,Metropolitana de Belo Horizonte
+3136306,João Pinheiro,Noroeste de Minas
+3136405,Joaquim Felício,Central Mineira
+3136504,Jordânia,Jequitinhonha
+3136520,José Gonçalves de Minas,Jequitinhonha
+3136553,José Raydan,Vale do Rio Doce
+3136579,Josenópolis,Norte de Minas
+3136603,Nova União,Metropolitana de Belo Horizonte
+3136652,Juatuba,Metropolitana de Belo Horizonte
+3136702,Juiz de Fora,Zona da Mata
+3136801,Juramento,Norte de Minas
+3136900,Juruaia,Sul/Sudoeste de Minas
+3136959,Juvenília,Norte de Minas
+3137007,Ladainha,Vale do Mucuri
+3137106,Lagamar,Noroeste de Minas
+3137205,Lagoa da Prata,Central Mineira
+3137304,Lagoa dos Patos,Norte de Minas
+3137403,Lagoa Dourada,Campo das Vertentes
+3137502,Lagoa Formosa,Triângulo Mineiro/Alto Paranaíba
+3137536,Lagoa Grande,Noroeste de Minas
+3137601,Lagoa Santa,Metropolitana de Belo Horizonte
+3137700,Lajinha,Zona da Mata
+3137809,Lambari,Sul/Sudoeste de Minas
+3137908,Lamim,Zona da Mata
+3138005,Laranjal,Zona da Mata
+3138104,Lassance,Norte de Minas
+3138203,Lavras,Campo das Vertentes
+3138302,Leandro Ferreira,Central Mineira
+3138351,Leme do Prado,Jequitinhonha
+3138401,Leopoldina,Zona da Mata
+3138500,Liberdade,Sul/Sudoeste de Minas
+3138609,Lima Duarte,Zona da Mata
+3138625,Limeira do Oeste,Triângulo Mineiro/Alto Paranaíba
+3138658,Lontra,Norte de Minas
+3138674,Luisburgo,Zona da Mata
+3138682,Luislândia,Norte de Minas
+3138708,Luminárias,Campo das Vertentes
+3138807,Luz,Central Mineira
+3138906,Machacalis,Vale do Mucuri
+3139003,Machado,Sul/Sudoeste de Minas
+3139102,Madre de Deus de Minas,Campo das Vertentes
+3139201,Malacacheta,Vale do Mucuri
+3139250,Mamonas,Norte de Minas
+3139300,Manga,Norte de Minas
+3139409,Manhuaçu,Zona da Mata
+3139508,Manhumirim,Zona da Mata
+3139607,Mantena,Vale do Rio Doce
+3139706,Maravilhas,Metropolitana de Belo Horizonte
+3139805,Mar de Espanha,Zona da Mata
+3139904,Maria da Fé,Sul/Sudoeste de Minas
+3140001,Mariana,Metropolitana de Belo Horizonte
+3140100,Marilac,Vale do Rio Doce
+3140159,Mário Campos,Metropolitana de Belo Horizonte
+3140209,Maripá de Minas,Zona da Mata
+3140308,Marliéria,Vale do Rio Doce
+3140407,Marmelópolis,Sul/Sudoeste de Minas
+3140506,Martinho Campos,Central Mineira
+3140530,Martins Soares,Zona da Mata
+3140555,Mata Verde,Jequitinhonha
+3140605,Materlândia,Vale do Rio Doce
+3140704,Mateus Leme,Metropolitana de Belo Horizonte
+3140803,Matias Barbosa,Zona da Mata
+3140852,Matias Cardoso,Norte de Minas
+3140902,Matipó,Zona da Mata
+3141009,Mato Verde,Norte de Minas
+3141108,Matozinhos,Metropolitana de Belo Horizonte
+3141207,Matutina,Triângulo Mineiro/Alto Paranaíba
+3141306,Medeiros,Oeste de Minas
+3141405,Medina,Jequitinhonha
+3141504,Mendes Pimentel,Vale do Rio Doce
+3141603,Mercês,Zona da Mata
+3141702,Mesquita,Vale do Rio Doce
+3141801,Minas Novas,Jequitinhonha
+3141900,Minduri,Sul/Sudoeste de Minas
+3142007,Mirabela,Norte de Minas
+3142106,Miradouro,Zona da Mata
+3142205,Miraí,Zona da Mata
+3142254,Miravânia,Norte de Minas
+3142304,Moeda,Metropolitana de Belo Horizonte
+3142403,Moema,Central Mineira
+3142502,Monjolos,Central Mineira
+3142601,Monsenhor Paulo,Sul/Sudoeste de Minas
+3142700,Montalvânia,Norte de Minas
+3142809,Monte Alegre de Minas,Triângulo Mineiro/Alto Paranaíba
+3142908,Monte Azul,Norte de Minas
+3143005,Monte Belo,Sul/Sudoeste de Minas
+3143104,Monte Carmelo,Triângulo Mineiro/Alto Paranaíba
+3143153,Monte Formoso,Jequitinhonha
+3143203,Monte Santo de Minas,Sul/Sudoeste de Minas
+3143302,Montes Claros,Norte de Minas
+3143401,Monte Sião,Sul/Sudoeste de Minas
+3143450,Montezuma,Norte de Minas
+3143500,Morada Nova de Minas,Central Mineira
+3143609,Morro da Garça,Central Mineira
+3143708,Morro do Pilar,Metropolitana de Belo Horizonte
+3143807,Munhoz,Sul/Sudoeste de Minas
+3143906,Muriaé,Zona da Mata
+3144003,Mutum,Vale do Rio Doce
+3144102,Muzambinho,Sul/Sudoeste de Minas
+3144201,Nacip Raydan,Vale do Rio Doce
+3144300,Nanuque,Vale do Mucuri
+3144359,Naque,Vale do Rio Doce
+3144375,Natalândia,Noroeste de Minas
+3144409,Natércia,Sul/Sudoeste de Minas
+3144508,Nazareno,Campo das Vertentes
+3144607,Nepomuceno,Campo das Vertentes
+3144656,Ninheira,Norte de Minas
+3144672,Nova Belém,Vale do Rio Doce
+3144706,Nova Era,Metropolitana de Belo Horizonte
+3144805,Nova Lima,Metropolitana de Belo Horizonte
+3144904,Nova Módica,Vale do Rio Doce
+3145000,Nova Ponte,Triângulo Mineiro/Alto Paranaíba
+3145059,Nova Porteirinha,Norte de Minas
+3145109,Nova Resende,Sul/Sudoeste de Minas
+3145208,Nova Serrana,Oeste de Minas
+3145307,Novo Cruzeiro,Jequitinhonha
+3145356,Novo Oriente de Minas,Vale do Mucuri
+3145372,Novorizonte,Norte de Minas
+3145406,Olaria,Zona da Mata
+3145455,Olhos-d'Água,Norte de Minas
+3145505,Olímpio Noronha,Sul/Sudoeste de Minas
+3145604,Oliveira,Oeste de Minas
+3145703,Oliveira Fortes,Zona da Mata
+3145802,Onça de Pitangui,Metropolitana de Belo Horizonte
+3145851,Oratórios,Zona da Mata
+3145877,Orizânia,Zona da Mata
+3145901,Ouro Branco,Metropolitana de Belo Horizonte
+3146008,Ouro Fino,Sul/Sudoeste de Minas
+3146107,Ouro Preto,Metropolitana de Belo Horizonte
+3146206,Ouro Verde de Minas,Vale do Mucuri
+3146255,Padre Carvalho,Norte de Minas
+3146305,Padre Paraíso,Jequitinhonha
+3146404,Paineiras,Central Mineira
+3146503,Pains,Oeste de Minas
+3146552,Pai Pedro,Norte de Minas
+3146602,Paiva,Zona da Mata
+3146701,Palma,Zona da Mata
+3146750,Palmópolis,Jequitinhonha
+3146909,Papagaios,Metropolitana de Belo Horizonte
+3147006,Paracatu,Noroeste de Minas
+3147105,Pará de Minas,Metropolitana de Belo Horizonte
+3147204,Paraguaçu,Sul/Sudoeste de Minas
+3147303,Paraisópolis,Sul/Sudoeste de Minas
+3147402,Paraopeba,Metropolitana de Belo Horizonte
+3147501,Passabém,Metropolitana de Belo Horizonte
+3147600,Passa Quatro,Sul/Sudoeste de Minas
+3147709,Passa Tempo,Oeste de Minas
+3147808,Passa Vinte,Sul/Sudoeste de Minas
+3147907,Passos,Sul/Sudoeste de Minas
+3147956,Patis,Norte de Minas
+3148004,Patos de Minas,Triângulo Mineiro/Alto Paranaíba
+3148103,Patrocínio,Triângulo Mineiro/Alto Paranaíba
+3148202,Patrocínio do Muriaé,Zona da Mata
+3148301,Paula Cândido,Zona da Mata
+3148400,Paulistas,Vale do Rio Doce
+3148509,Pavão,Vale do Mucuri
+3148608,Peçanha,Vale do Rio Doce
+3148707,Pedra Azul,Jequitinhonha
+3148756,Pedra Bonita,Zona da Mata
+3148806,Pedra do Anta,Zona da Mata
+3148905,Pedra do Indaiá,Oeste de Minas
+3149002,Pedra Dourada,Zona da Mata
+3149101,Pedralva,Sul/Sudoeste de Minas
+3149150,Pedras de Maria da Cruz,Norte de Minas
+3149200,Pedrinópolis,Triângulo Mineiro/Alto Paranaíba
+3149309,Pedro Leopoldo,Metropolitana de Belo Horizonte
+3149408,Pedro Teixeira,Zona da Mata
+3149507,Pequeri,Zona da Mata
+3149606,Pequi,Metropolitana de Belo Horizonte
+3149705,Perdigão,Oeste de Minas
+3149804,Perdizes,Triângulo Mineiro/Alto Paranaíba
+3149903,Perdões,Oeste de Minas
+3149952,Periquito,Vale do Rio Doce
+3150000,Pescador,Vale do Rio Doce
+3150109,Piau,Zona da Mata
+3150158,Piedade de Caratinga,Vale do Rio Doce
+3150208,Piedade de Ponte Nova,Zona da Mata
+3150307,Piedade do Rio Grande,Campo das Vertentes
+3150406,Piedade dos Gerais,Metropolitana de Belo Horizonte
+3150505,Pimenta,Oeste de Minas
+3150539,Pingo-d'Água,Vale do Rio Doce
+3150570,Pintópolis,Norte de Minas
+3150604,Piracema,Oeste de Minas
+3150703,Pirajuba,Triângulo Mineiro/Alto Paranaíba
+3150802,Piranga,Zona da Mata
+3150901,Piranguçu,Sul/Sudoeste de Minas
+3151008,Piranguinho,Sul/Sudoeste de Minas
+3151107,Pirapetinga,Zona da Mata
+3151206,Pirapora,Norte de Minas
+3151305,Piraúba,Zona da Mata
+3151404,Pitangui,Metropolitana de Belo Horizonte
+3151503,Piumhi,Oeste de Minas
+3151602,Planura,Triângulo Mineiro/Alto Paranaíba
+3151701,Poço Fundo,Sul/Sudoeste de Minas
+3151800,Poços de Caldas,Sul/Sudoeste de Minas
+3151909,Pocrane,Vale do Rio Doce
+3152006,Pompéu,Central Mineira
+3152105,Ponte Nova,Zona da Mata
+3152131,Ponto Chique,Norte de Minas
+3152170,Ponto dos Volantes,Jequitinhonha
+3152204,Porteirinha,Norte de Minas
+3152303,Porto Firme,Zona da Mata
+3152402,Poté,Vale do Mucuri
+3152501,Pouso Alegre,Sul/Sudoeste de Minas
+3152600,Pouso Alto,Sul/Sudoeste de Minas
+3152709,Prados,Campo das Vertentes
+3152808,Prata,Triângulo Mineiro/Alto Paranaíba
+3152907,Pratápolis,Sul/Sudoeste de Minas
+3153004,Pratinha,Triângulo Mineiro/Alto Paranaíba
+3153103,Presidente Bernardes,Zona da Mata
+3153202,Presidente Juscelino,Central Mineira
+3153301,Presidente Kubitschek,Jequitinhonha
+3153400,Presidente Olegário,Noroeste de Minas
+3153509,Alto Jequitibá,Zona da Mata
+3153608,Prudente de Morais,Metropolitana de Belo Horizonte
+3153707,Quartel Geral,Central Mineira
+3153806,Queluzito,Metropolitana de Belo Horizonte
+3153905,Raposos,Metropolitana de Belo Horizonte
+3154002,Raul Soares,Zona da Mata
+3154101,Recreio,Zona da Mata
+3154150,Reduto,Zona da Mata
+3154200,Resende Costa,Campo das Vertentes
+3154309,Resplendor,Vale do Rio Doce
+3154408,Ressaquinha,Campo das Vertentes
+3154457,Riachinho,Norte de Minas
+3154507,Riacho dos Machados,Norte de Minas
+3154606,Ribeirão das Neves,Metropolitana de Belo Horizonte
+3154705,Ribeirão Vermelho,Campo das Vertentes
+3154804,Rio Acima,Metropolitana de Belo Horizonte
+3154903,Rio Casca,Zona da Mata
+3155009,Rio Doce,Zona da Mata
+3155108,Rio do Prado,Jequitinhonha
+3155207,Rio Espera,Zona da Mata
+3155306,Rio Manso,Metropolitana de Belo Horizonte
+3155405,Rio Novo,Zona da Mata
+3155504,Rio Paranaíba,Triângulo Mineiro/Alto Paranaíba
+3155603,Rio Pardo de Minas,Norte de Minas
+3155702,Rio Piracicaba,Metropolitana de Belo Horizonte
+3155801,Rio Pomba,Zona da Mata
+3155900,Rio Preto,Zona da Mata
+3156007,Rio Vermelho,Metropolitana de Belo Horizonte
+3156106,Ritápolis,Campo das Vertentes
+3156205,Rochedo de Minas,Zona da Mata
+3156304,Rodeiro,Zona da Mata
+3156403,Romaria,Triângulo Mineiro/Alto Paranaíba
+3156452,Rosário da Limeira,Zona da Mata
+3156502,Rubelita,Norte de Minas
+3156601,Rubim,Jequitinhonha
+3156700,Sabará,Metropolitana de Belo Horizonte
+3156809,Sabinópolis,Vale do Rio Doce
+3156908,Sacramento,Triângulo Mineiro/Alto Paranaíba
+3157005,Salinas,Norte de Minas
+3157104,Salto da Divisa,Jequitinhonha
+3157203,Santa Bárbara,Metropolitana de Belo Horizonte
+3157252,Santa Bárbara do Leste,Vale do Rio Doce
+3157278,Santa Bárbara do Monte Verde,Zona da Mata
+3157302,Santa Bárbara do Tugúrio,Campo das Vertentes
+3157336,Santa Cruz de Minas,Campo das Vertentes
+3157377,Santa Cruz de Salinas,Norte de Minas
+3157401,Santa Cruz do Escalvado,Zona da Mata
+3157500,Santa Efigênia de Minas,Vale do Rio Doce
+3157609,Santa Fé de Minas,Norte de Minas
+3157658,Santa Helena de Minas,Vale do Mucuri
+3157708,Santa Juliana,Triângulo Mineiro/Alto Paranaíba
+3157807,Santa Luzia,Metropolitana de Belo Horizonte
+3157906,Santa Margarida,Zona da Mata
+3158003,Santa Maria de Itabira,Metropolitana de Belo Horizonte
+3158102,Santa Maria do Salto,Jequitinhonha
+3158201,Santa Maria do Suaçuí,Vale do Rio Doce
+3158300,Santana da Vargem,Sul/Sudoeste de Minas
+3158409,Santana de Cataguases,Zona da Mata
+3158508,Santana de Pirapama,Metropolitana de Belo Horizonte
+3158607,Santana do Deserto,Zona da Mata
+3158706,Santana do Garambéu,Campo das Vertentes
+3158805,Santana do Jacaré,Oeste de Minas
+3158904,Santana do Manhuaçu,Zona da Mata
+3158953,Santana do Paraíso,Vale do Rio Doce
+3159001,Santana do Riacho,Metropolitana de Belo Horizonte
+3159100,Santana dos Montes,Metropolitana de Belo Horizonte
+3159209,Santa Rita de Caldas,Sul/Sudoeste de Minas
+3159308,Santa Rita de Jacutinga,Zona da Mata
+3159357,Santa Rita de Minas,Vale do Rio Doce
+3159407,Santa Rita de Ibitipoca,Zona da Mata
+3159506,Santa Rita do Itueto,Vale do Rio Doce
+3159605,Santa Rita do Sapucaí,Sul/Sudoeste de Minas
+3159704,Santa Rosa da Serra,Triângulo Mineiro/Alto Paranaíba
+3159803,Santa Vitória,Triângulo Mineiro/Alto Paranaíba
+3159902,Santo Antônio do Amparo,Oeste de Minas
+3160009,Santo Antônio do Aventureiro,Zona da Mata
+3160108,Santo Antônio do Grama,Zona da Mata
+3160207,Santo Antônio do Itambé,Metropolitana de Belo Horizonte
+3160306,Santo Antônio do Jacinto,Jequitinhonha
+3160405,Santo Antônio do Monte,Oeste de Minas
+3160454,Santo Antônio do Retiro,Norte de Minas
+3160504,Santo Antônio do Rio Abaixo,Metropolitana de Belo Horizonte
+3160603,Santo Hipólito,Central Mineira
+3160702,Santos Dumont,Zona da Mata
+3160801,São Bento Abade,Sul/Sudoeste de Minas
+3160900,São Brás do Suaçuí,Metropolitana de Belo Horizonte
+3160959,São Domingos das Dores,Vale do Rio Doce
+3161007,São Domingos do Prata,Metropolitana de Belo Horizonte
+3161056,São Félix de Minas,Vale do Rio Doce
+3161106,São Francisco,Norte de Minas
+3161205,São Francisco de Paula,Oeste de Minas
+3161304,São Francisco de Sales,Triângulo Mineiro/Alto Paranaíba
+3161403,São Francisco do Glória,Zona da Mata
+3161502,São Geraldo,Zona da Mata
+3161601,São Geraldo da Piedade,Vale do Rio Doce
+3161650,São Geraldo do Baixio,Vale do Rio Doce
+3161700,São Gonçalo do Abaeté,Noroeste de Minas
+3161809,São Gonçalo do Pará,Oeste de Minas
+3161908,São Gonçalo do Rio Abaixo,Metropolitana de Belo Horizonte
+3162005,São Gonçalo do Sapucaí,Sul/Sudoeste de Minas
+3162104,São Gotardo,Triângulo Mineiro/Alto Paranaíba
+3162203,São João Batista do Glória,Sul/Sudoeste de Minas
+3162252,São João da Lagoa,Norte de Minas
+3162302,São João da Mata,Sul/Sudoeste de Minas
+3162401,São João da Ponte,Norte de Minas
+3162450,São João das Missões,Norte de Minas
+3162500,São João del Rei,Campo das Vertentes
+3162559,São João do Manhuaçu,Zona da Mata
+3162575,São João do Manteninha,Vale do Rio Doce
+3162609,São João do Oriente,Vale do Rio Doce
+3162658,São João do Pacuí,Norte de Minas
+3162708,São João do Paraíso,Norte de Minas
+3162807,São João Evangelista,Vale do Rio Doce
+3162906,São João Nepomuceno,Zona da Mata
+3162922,São Joaquim de Bicas,Metropolitana de Belo Horizonte
+3162948,São José da Barra,Sul/Sudoeste de Minas
+3162955,São José da Lapa,Metropolitana de Belo Horizonte
+3163003,São José da Safira,Vale do Rio Doce
+3163102,São José da Varginha,Metropolitana de Belo Horizonte
+3163201,São José do Alegre,Sul/Sudoeste de Minas
+3163300,São José do Divino,Vale do Rio Doce
+3163409,São José do Goiabal,Metropolitana de Belo Horizonte
+3163508,São José do Jacuri,Vale do Rio Doce
+3163607,São José do Mantimento,Zona da Mata
+3163706,São Lourenço,Sul/Sudoeste de Minas
+3163805,São Miguel do Anta,Zona da Mata
+3163904,São Pedro da União,Sul/Sudoeste de Minas
+3164001,São Pedro dos Ferros,Zona da Mata
+3164100,São Pedro do Suaçuí,Vale do Rio Doce
+3164209,São Romão,Norte de Minas
+3164308,São Roque de Minas,Oeste de Minas
+3164407,São Sebastião da Bela Vista,Sul/Sudoeste de Minas
+3164431,São Sebastião da Vargem Alegre,Zona da Mata
+3164472,São Sebastião do Anta,Vale do Rio Doce
+3164506,São Sebastião do Maranhão,Vale do Rio Doce
+3164605,São Sebastião do Oeste,Oeste de Minas
+3164704,São Sebastião do Paraíso,Sul/Sudoeste de Minas
+3164803,São Sebastião do Rio Preto,Metropolitana de Belo Horizonte
+3164902,São Sebastião do Rio Verde,Sul/Sudoeste de Minas
+3165008,São Tiago,Campo das Vertentes
+3165107,São Tomás de Aquino,Sul/Sudoeste de Minas
+3165206,São Tomé das Letras,Sul/Sudoeste de Minas
+3165305,São Vicente de Minas,Sul/Sudoeste de Minas
+3165404,Sapucaí-Mirim,Sul/Sudoeste de Minas
+3165503,Sardoá,Vale do Rio Doce
+3165537,Sarzedo,Metropolitana de Belo Horizonte
+3165552,Setubinha,Vale do Mucuri
+3165560,Sem-Peixe,Zona da Mata
+3165578,Senador Amaral,Sul/Sudoeste de Minas
+3165602,Senador Cortes,Zona da Mata
+3165701,Senador Firmino,Zona da Mata
+3165800,Senador José Bento,Sul/Sudoeste de Minas
+3165909,Senador Modestino Gonçalves,Jequitinhonha
+3166006,Senhora de Oliveira,Zona da Mata
+3166105,Senhora do Porto,Vale do Rio Doce
+3166204,Senhora dos Remédios,Campo das Vertentes
+3166303,Sericita,Zona da Mata
+3166402,Seritinga,Sul/Sudoeste de Minas
+3166501,Serra Azul de Minas,Metropolitana de Belo Horizonte
+3166600,Serra da Saudade,Central Mineira
+3166709,Serra dos Aimorés,Vale do Mucuri
+3166808,Serra do Salitre,Triângulo Mineiro/Alto Paranaíba
+3166907,Serrania,Sul/Sudoeste de Minas
+3166956,Serranópolis de Minas,Norte de Minas
+3167004,Serranos,Sul/Sudoeste de Minas
+3167103,Serro,Metropolitana de Belo Horizonte
+3167202,Sete Lagoas,Metropolitana de Belo Horizonte
+3167301,Silveirânia,Zona da Mata
+3167400,Silvianópolis,Sul/Sudoeste de Minas
+3167509,Simão Pereira,Zona da Mata
+3167608,Simonésia,Zona da Mata
+3167707,Sobrália,Vale do Rio Doce
+3167806,Soledade de Minas,Sul/Sudoeste de Minas
+3167905,Tabuleiro,Zona da Mata
+3168002,Taiobeiras,Norte de Minas
+3168051,Taparuba,Vale do Rio Doce
+3168101,Tapira,Triângulo Mineiro/Alto Paranaíba
+3168200,Tapiraí,Oeste de Minas
+3168309,Taquaraçu de Minas,Metropolitana de Belo Horizonte
+3168408,Tarumirim,Vale do Rio Doce
+3168507,Teixeiras,Zona da Mata
+3168606,Teófilo Otoni,Vale do Mucuri
+3168705,Timóteo,Vale do Rio Doce
+3168804,Tiradentes,Campo das Vertentes
+3168903,Tiros,Triângulo Mineiro/Alto Paranaíba
+3169000,Tocantins,Zona da Mata
+3169059,Tocos do Moji,Sul/Sudoeste de Minas
+3169109,Toledo,Sul/Sudoeste de Minas
+3169208,Tombos,Zona da Mata
+3169307,Três Corações,Sul/Sudoeste de Minas
+3169356,Três Marias,Central Mineira
+3169406,Três Pontas,Sul/Sudoeste de Minas
+3169505,Tumiritinga,Vale do Rio Doce
+3169604,Tupaciguara,Triângulo Mineiro/Alto Paranaíba
+3169703,Turmalina,Jequitinhonha
+3169802,Turvolândia,Sul/Sudoeste de Minas
+3169901,Ubá,Zona da Mata
+3170008,Ubaí,Norte de Minas
+3170057,Ubaporanga,Vale do Rio Doce
+3170107,Uberaba,Triângulo Mineiro/Alto Paranaíba
+3170206,Uberlândia,Triângulo Mineiro/Alto Paranaíba
+3170305,Umburatiba,Vale do Mucuri
+3170404,Unaí,Noroeste de Minas
+3170438,União de Minas,Triângulo Mineiro/Alto Paranaíba
+3170479,Uruana de Minas,Noroeste de Minas
+3170503,Urucânia,Zona da Mata
+3170529,Urucuia,Norte de Minas
+3170578,Vargem Alegre,Vale do Rio Doce
+3170602,Vargem Bonita,Oeste de Minas
+3170651,Vargem Grande do Rio Pardo,Norte de Minas
+3170701,Varginha,Sul/Sudoeste de Minas
+3170750,Varjão de Minas,Noroeste de Minas
+3170800,Várzea da Palma,Norte de Minas
+3170909,Varzelândia,Norte de Minas
+3171006,Vazante,Noroeste de Minas
+3171030,Verdelândia,Norte de Minas
+3171071,Veredinha,Jequitinhonha
+3171105,Veríssimo,Triângulo Mineiro/Alto Paranaíba
+3171154,Vermelho Novo,Zona da Mata
+3171204,Vespasiano,Metropolitana de Belo Horizonte
+3171303,Viçosa,Zona da Mata
+3171402,Vieiras,Zona da Mata
+3171501,Mathias Lobato,Vale do Rio Doce
+3171600,Virgem da Lapa,Jequitinhonha
+3171709,Virgínia,Sul/Sudoeste de Minas
+3171808,Virginópolis,Vale do Rio Doce
+3171907,Virgolândia,Vale do Rio Doce
+3172004,Visconde do Rio Branco,Zona da Mata
+3172103,Volta Grande,Zona da Mata
+3172202,Wenceslau Braz,Sul/Sudoeste de Minas
