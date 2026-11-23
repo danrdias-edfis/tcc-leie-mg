@@ -2,7 +2,12 @@
 Rotina de tratamento dos dados da Lei Estadual de Incentivo ao Esporte de Minas Gerais (LEIE/MG).
 
 Trabalho de Conclusão de Curso (UFMG/EEFFTO) de Daniel Resende Dias.
-Reproduz os números do TCC a partir das duas planilhas fornecidas pela SEDESE:
+Reproduz os números do TCC a partir das duas planilhas fornecidas pela SEDESE.
+A análise considera a captação de 2014 a 2024: a data de corte é 31/12/2024, e os
+valores captados em 2025 (coluna "Valor captado 2025" e termos com ano de captação
+2025) são descartados na etapa 2.
+
+Planilhas:
 
   - base de projetos, posição de 08/05/2025 (Minas Gerais, 2025a);
   - base de Termos de Compromisso (TC), posição de março de 2025 (Minas Gerais, 2025b).
@@ -30,9 +35,16 @@ AUX = Path(__file__).resolve().parent / "dados_auxiliares"
 CAMPOS_PESSOAIS = ["Representante legal", "E-mail", "Telefone"]
 
 COL_APROVADO = "Valor aprovado (se aprovado) / previsto (se indeferido)"
-ANOS = list(range(2014, 2026))
+ANO_CORTE = 2024  # data de corte: 31/12/2024
+ANOS_BASE = list(range(2014, 2026))          # colunas presentes na planilha
+COL_ANOS_BASE = [f"Valor captado {a}" for a in ANOS_BASE]
+ANOS = [a for a in ANOS_BASE if a <= ANO_CORTE]  # anos analisados (2014 a 2024)
 COL_ANOS = [f"Valor captado {a}" for a in ANOS]
 COL_MUN = "Município(s) de execução"
+
+# Entidades de administração do esporte reconhecidas pelo nome (etapa 3).
+REGEX_ADMINISTRACAO = r"^(federa[cç][aã]o|confedera[cç][aã]o|liga)\b"
+NAO_ADMINISTRACAO = {"FEDERACAO DAS ASSOCIACOES DE PAIS E AMIGOS DOS EXCEPCIONAIS DO ESTADO DE MINAS GERAIS"}
 
 # Unilever aparece com duas raízes de CNPJ; é tratada como uma só empresa.
 RAIZES_MESMA_EMPRESA = {"01615814": "61068276"}
@@ -60,11 +72,14 @@ def remover_totalizacao(proj):
     sem_numero = proj["Número projeto"].isna()
     print(f"[2] linhas de totalização removidas: {sem_numero.sum()}")
     proj = proj[~sem_numero].copy()
-    for c in [COL_APROVADO, "Total captado"] + COL_ANOS:
+    for c in [COL_APROVADO, "Total captado"] + COL_ANOS_BASE:
         # Uma célula de 2023 está como texto ("R$ 25.000,00" com tabulação) e
         # vira vazio aqui, como na análise do TCC.
         proj[c] = pd.to_numeric(proj[c], errors="coerce")
+    # Captado no período analisado (2014 a 2024); 2025 fica de fora.
     proj["captado"] = proj[COL_ANOS].sum(axis=1)
+    proj["captado_ate_2025"] = proj[COL_ANOS_BASE].sum(axis=1)
+    print(f"[2] captação de 2025 descartada: R$ {proj['Valor captado 2025'].sum():,.2f}")
     return proj
 
 
@@ -79,7 +94,16 @@ def padronizar_categorias(proj):
     sem_tipo = proj.loc[proj["tipo"].isna(), "Tipo Executor"].unique()
     if len(sem_tipo):
         raise ValueError(f"Rótulos de tipo de executor sem categoria: {sem_tipo}")
-    print(f"[3] rótulos de tipo de executor: {rotulo.nunique()} -> {proj['tipo'].nunique()} categorias")
+    # Federações, confederações e ligas também são entidades sem fins lucrativos,
+    # mas são entidades de administração do esporte. Parte delas foi cadastrada
+    # com o rótulo genérico "pessoa jurídica sem fins lucrativos"; o nome da
+    # entidade corrige esses casos.
+    nome = proj["Nome Executor"].astype(str).str.strip()
+    admin = nome.str.match(REGEX_ADMINISTRACAO, case=False) & ~nome.str.upper().isin(NAO_ADMINISTRACAO)
+    corrigidos = admin & (proj["tipo"] == "Associação, clube ou instituto")
+    proj.loc[corrigidos, "tipo"] = "Federação, confederação ou liga"
+    print(f"[3] rótulos de tipo de executor: {rotulo.nunique()} -> {proj['tipo'].nunique()} categorias; "
+          f"projetos reclassificados pelo nome como federação, confederação ou liga: {corrigidos.sum()}")
 
     dim = proj["Dimensão esportiva"].astype(str).str.strip()
     dim = dim.replace({"Desenvolvimento Científico- Tecnológico": "Desenvolvimento Científico-Tecnológico"})
@@ -117,6 +141,11 @@ def normalizar_cnpj(valor):
 
 
 def padronizar_termos(termos):
+    # Data de corte: só os termos com ano de captação até 2024.
+    fora = termos["Ano captação"] > ANO_CORTE
+    valor_fora = pd.to_numeric(termos.loc[fora, "Valor do TC"], errors="coerce").sum()
+    print(f"[4] termos com ano de captação 2025 descartados: {fora.sum()} (R$ {valor_fora:,.2f})")
+    termos = termos[~fora].copy()
     bruto = termos["Número Projeto"].astype(str)
     termos["n_sem_pontos"] = int((~bruto.str.contains(r"\.")).sum())
     termos["n_com_espacos"] = int((bruto != bruto.str.strip()).sum())
@@ -150,10 +179,21 @@ def separar_municipios(proj):
 # Etapa 6: projetos habilitados à captação
 # ---------------------------------------------------------------------------
 def habilitados(proj):
+    """Projetos aprovados que tiveram prazo para captar até a data de corte.
+
+    Saem os indeferidos, os que estavam em análise e os aprovados em editais cuja
+    captação só começou depois de 31/12/2024 (edital 2024/08: nenhum de seus
+    projetos registra captação até 2024).
+    """
     status = proj["Status"].astype(str).str.strip()
-    hab = proj[~status.isin(["Indeferidos", "Análise"])].copy()
+    aprovado = ~status.isin(["Indeferidos", "Análise"])
+    cap_ate_corte = proj[aprovado].groupby("ano_edital")["captado"].sum()
+    editais_sem_prazo = sorted(cap_ate_corte[cap_ate_corte == 0].index)
+    sem_prazo = aprovado & proj["ano_edital"].isin(editais_sem_prazo)
+    hab = proj[aprovado & ~sem_prazo].copy()
     print(f"[6] projetos: {len(proj)}; indeferidos: {(status == 'Indeferidos').sum()}; "
-          f"em análise: {(status == 'Análise').sum()}; habilitados: {len(hab)}")
+          f"em análise: {(status == 'Análise').sum()}; aprovados sem captação possível até "
+          f"{ANO_CORTE} (editais {editais_sem_prazo}): {sem_prazo.sum()}; habilitados: {len(hab)}")
     return hab
 
 
@@ -218,9 +258,9 @@ def pct(a, b):
 
 def quadro1(proj, termos, existe):
     q = {}
-    soma = proj[COL_ANOS].sum(axis=1)
+    soma = proj[COL_ANOS_BASE].sum(axis=1)
     q["total captado = soma dos anos"] = int((abs(proj["Total captado"].fillna(0) - soma) < 0.01).sum())
-    q["valores negativos"] = int((proj[[COL_APROVADO] + COL_ANOS] < 0).sum().sum())
+    q["valores negativos"] = int((proj[[COL_APROVADO] + COL_ANOS_BASE] < 0).sum().sum())
     q["dimensão em branco"] = int(proj["Dimensão esportiva"].isna().sum())
     exc = (proj["captado"] - proj[COL_APROVADO]).round(2)  # arredonda ao centavo
     q["projetos com captação acima do aprovado"] = int((exc > 0).sum())
@@ -239,9 +279,10 @@ def quadro1(proj, termos, existe):
     q["termos com projeto inexistente"] = int((~existe).sum())
     q["valor desses termos (R$)"] = round(termos.loc[~existe, "valor"].sum(), 2)
     q["termos sem valor numérico"] = int(pd.to_numeric(termos["Valor do TC"], errors="coerce").isna().sum())
-    q["divergência entre as bases (R$)"] = round(proj["captado"].sum() - termos["valor"].sum(), 2)
-    q["  dessa, no exercício de 2025 (R$)"] = round(
-        proj["Valor captado 2025"].sum() - termos.loc[termos["Ano captação"] == 2025, "valor"].sum(), 2)
+    q["divergência entre as bases, 2014 a 2024 (R$)"] = round(proj["captado"].sum() - termos["valor"].sum(), 2)
+    for a in ANOS:
+        q[f"  divergência em {a} (R$)"] = round(
+            proj[f"Valor captado {a}"].sum() - termos.loc[termos["Ano captação"] == a, "valor"].sum(), 2)
     return pd.Series(q, name="resultado")
 
 
@@ -252,7 +293,7 @@ def tabelas(proj, hab, termos, emp, ibge):
 
     # Tabela 2: aprovado por ano do edital; captado por ano; limite anual
     lim = pd.read_csv(AUX / "limite_anual.csv").set_index("ano")["limite"]
-    t2 = pd.DataFrame(index=range(2013, 2026))
+    t2 = pd.DataFrame(index=range(2013, ANO_CORTE + 1))
     t2["aprovado"] = hab.groupby("ano_edital")[COL_APROVADO].sum()
     t2["captado"] = pd.Series({a: hab[f"Valor captado {a}"].sum() for a in ANOS})
     t2["limite"] = lim
@@ -330,6 +371,13 @@ def tabelas(proj, hab, termos, emp, ibge):
     t11["pct_valor"] = (100 * t11["valor_sede"] / cap["captado"].sum()).round(1)
     T["tabela11_mesorregioes"] = t11.sort_values("valor_sede", ascending=False)
 
+    # Item 4.8: valor associado a cada modalidade (um projeto com várias
+    # modalidades é contado em todas elas)
+    mods = cap.assign(modalidade=cap["Modalidades"].astype(str).str.split(r"\s*/\s*")).explode("modalidade")
+    mods["modalidade"] = mods["modalidade"].str.strip().str.upper()
+    T["modalidades"] = mods.groupby("modalidade").agg(projetos=("captado", "size"), valor=("captado", "sum")) \
+        .sort_values("valor", ascending=False)
+
     # Tabela 12 (Apêndice B): empresas dos grupos econômicos
     T["tabela12_grupos_detalhe"] = emp[emp["grupo"].notna()][["grupo", "empresa", "termos", "valor"]] \
         .sort_values(["grupo", "valor"], ascending=[True, False])
@@ -361,6 +409,8 @@ def indicadores(proj, hab, termos, emp, T):
         "projetos protocolados": len(proj),
         "indeferidos": int((st == "Indeferidos").sum()),
         "em análise": int((st == "Análise").sum()),
+        "aprovados em editais sem captação até o corte": int((~st.isin(["Indeferidos", "Análise"])).sum() - len(hab)),
+        "valor aprovado desses (R$)": round(proj.loc[~st.isin(["Indeferidos", "Análise"]) & ~proj.index.isin(hab.index), COL_APROVADO].sum(), 2),
         "habilitados": len(hab),
         "habilitados que captaram": len(cap),
         "% que captaram": pct(len(cap), len(hab)),
@@ -431,7 +481,7 @@ def main():
     print("\nQuadro 1\n", q1.to_string())
     print("\nIndicadores\n", ind.to_string())
     for nome, df in T.items():
-        if nome.startswith("tabela13") or nome.startswith("tabela12"):
+        if nome.startswith(("tabela13", "tabela12", "modalidades")):
             continue
         print(f"\n{nome}\n{df.to_string()}")
     print(f"\nResultados gravados em {out.resolve()}")
