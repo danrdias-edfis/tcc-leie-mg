@@ -24,7 +24,7 @@ pip install -r requirements.txt
 python rotina_leie_mg.py --projetos caminho/projetos.xlsx --termos caminho/termos.xlsx --saida resultados
 ```
 
-A rotina mostra os resultados na tela e grava, na pasta `resultados`, um arquivo CSV para cada quadro e tabela (`quadro01_...`, `tabela02_...` a `tabela13_...`, `grafico01_...`, `modalidades.csv`), um arquivo `indicadores_do_texto.csv` com os números citados no texto e a lista das empresas apoiadoras com o setor atribuído.
+A rotina mostra os resultados na tela e grava, na pasta `resultados`, um arquivo CSV para cada quadro e tabela (`quadro01_...`, `tabela02_...` a `tabela13_...`, `grafico01_...`, `modalidades.csv`, `dependencia_permanencia.csv`), um arquivo `indicadores_do_texto.csv` com os números citados no texto e a lista das empresas apoiadoras com o setor atribuído.
 
 ## Etapas
 
@@ -39,7 +39,7 @@ As etapas seguem a ordem do Apêndice D:
 7. cruzamento das bases pelo número do projeto;
 8. consolidação dos apoiadores por raiz do CNPJ, grupo econômico e setor;
 9. município sede dos executores e mesorregiões;
-10. verificações de consistência e cálculo das tabelas.
+10. verificações de consistência e cálculo das tabelas, incluindo o cruzamento entre empresas, dimensões esportivas e executores (item 4.7 do TCC).
 
 ## Dados auxiliares (`dados_auxiliares/`)
 

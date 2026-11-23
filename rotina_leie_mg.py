@@ -371,6 +371,54 @@ def tabelas(proj, hab, termos, emp, ibge):
     t11["pct_valor"] = (100 * t11["valor_sede"] / cap["captado"].sum()).round(1)
     T["tabela11_mesorregioes"] = t11.sort_values("valor_sede", ascending=False)
 
+    # Item 4.7: o que as empresas financiam, dependência e permanência
+    DIMS = ["Rendimento", "Educacional", "Formação", "Social", "Lazer",
+            "Desenvolvimento Científico-Tecnológico"]
+    tp = termos.merge(hab[["Número projeto", "dimensao", "cnpj_executor"]]
+                      .assign(**{"Número projeto": hab["Número projeto"].astype(str).str.strip()}),
+                      left_on="projeto", right_on="Número projeto", how="inner")
+    tp["setor"] = tp["raiz"].map(emp["setor"])
+    tp["grupo"] = tp["raiz"].map(emp["grupo"].fillna(emp["empresa"]))
+    m = tp.pivot_table(index="setor", columns="dimensao", values="valor", aggfunc="sum", fill_value=0)
+    m = m.reindex(columns=DIMS, fill_value=0)
+    t10 = (100 * m.div(m.sum(axis=1), axis=0)).round(1)
+    t10["valor"] = m.sum(axis=1)
+    T["tabela10_setor_dimensao"] = t10.sort_values("valor", ascending=False)
+    top_grupos = T["tabela08_grupos"].index
+    m = tp[tp["grupo"].isin(top_grupos)].pivot_table(index="grupo", columns="dimensao", values="valor",
+                                                      aggfunc="sum", fill_value=0)
+    m = m.reindex(columns=DIMS, fill_value=0)
+    t11 = (100 * m.div(m.sum(axis=1), axis=0)).round(1)
+    t11["valor"] = m.sum(axis=1)
+    T["tabela11_grupo_dimensao"] = t11.loc[top_grupos]
+    ano = termos.groupby("Ano captação").agg(empresas=("raiz", "nunique"), termos=("valor", "size"),
+                                             valor=("valor", "sum"))
+    primeiro = termos.groupby("raiz")["Ano captação"].min()
+    ano["empresas_novas"] = primeiro.value_counts().reindex(ano.index, fill_value=0)
+    ano["pct_dez_maiores"] = termos.groupby(["Ano captação", "raiz"])["valor"].sum().groupby(level=0) \
+        .apply(lambda x: round(100 * x.nlargest(10).sum() / x.sum(), 1))
+    T["tabela12_empresas_por_ano"] = ano
+    # dependência dos executores (base: termos ligados a projetos habilitados)
+    por_exec = tp.groupby(["cnpj_executor", "raiz"])["valor"].sum()
+    n_apoiadores = por_exec.groupby(level=0).size()
+    maior = por_exec.groupby(level=0).max() / por_exec.groupby(level=0).sum()
+    anos_emp = termos.groupby("raiz")["Ano captação"].nunique()
+    fieis = anos_emp[anos_emp >= 5].index
+    T["dependencia_permanencia"] = pd.Series({
+        "termos ligados a projetos habilitados": len(tp),
+        "valor desses termos (R$)": round(tp["valor"].sum(), 2),
+        "executores": len(n_apoiadores),
+        "executores com um só apoiador": int((n_apoiadores == 1).sum()),
+        "% com um só apoiador": pct((n_apoiadores == 1).sum(), len(n_apoiadores)),
+        "executores com 50% ou mais de uma empresa": int((maior >= 0.5).sum()),
+        "% com 50% ou mais de uma empresa": pct((maior >= 0.5).sum(), len(maior)),
+        "mediana da participação do maior apoiador (%)": round(100 * maior.median(), 1),
+        "empresas que apoiaram em um só ano": int((anos_emp == 1).sum()),
+        "% das empresas em um só ano": pct((anos_emp == 1).sum(), len(anos_emp)),
+        "empresas que apoiaram em 5 anos ou mais": len(fieis),
+        "% do valor dessas empresas": pct(emp.loc[fieis, "valor"].sum(), emp["valor"].sum()),
+    }, name="valor").to_frame()
+
     # Item 4.8: valor associado a cada modalidade (um projeto com várias
     # modalidades é contado em todas elas)
     mods = cap.assign(modalidade=cap["Modalidades"].astype(str).str.split(r"\s*/\s*")).explode("modalidade")
